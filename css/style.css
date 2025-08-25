@@ -968,6 +968,7 @@ ul {
 }
 
 .btn-azul {
+  display: inline-block;
   background-color: #ffffff;
   color: #007bff;
   padding: 12px 24px;

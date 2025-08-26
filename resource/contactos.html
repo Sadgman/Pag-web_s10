@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contactos - FARQUINA</title>
+
+    <!-- Iconos y estilos -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- Encabezado -->
+    <header class="top-header">
+      <div class="contact-info">
+        <span><i class="fas fa-envelope"></i> info@farquina.com</span>
+        <span><i class="fas fa-phone"></i> +1809 578 7788</span>
+      </div>
+      <div class="social-icons">
+        <a href="#" target="_blank"><i class="fab fa-facebook"></i></a>
+        <a href="#" target="_blank"><i class="fab fa-x-twitter"></i></a>
+        <a href="#" target="_blank"><i class="fab fa-linkedin"></i></a>
+        <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+        <a href="#" target="_blank"><i class="fab fa-youtube"></i></a>
+      </div>
+    </header>
+    <!-- Navegador -->
+    <nav class="nav-bar">
+      <div class="logo">
+        <a href="index.html"
+          ><img
+            src="imagenes/logo-farquina.png"
+            alt="logo Farmoquímica"
+            width="300"
+        /></a>
+      </div>
+      <ul class="nav-links">
+        <li><a href="index.html">Hogar</a></li>
+        <li><a href="sobre.html">Sobre nosotros</a></li>
+        <li class="dropdown">
+          <a href="productos.html">Productos ▾</a>
+          <ul class="dropdown-menu">
+             <li><a href="Limpieza.html">Limpieza del Hogar</a></li>
+            <li><a href="aseo.html">Aseo Personal</a></li>
+            <li><a href="vehiculo.html">Cuidado de Vehículos</a></li>
+            <li><a href="comestibles.html">Comestibles</a></li>
+          </ul>
+        </li>
+        <li><a href="contactos.html">Contactos</a></li>
+      </ul>
+    </nav>
+
+    <!-- contenedor de contactos -->
+
+    <main class="contact-section">
+      <div class="contact-form">
+        <h1><i class="fas fa-envelope-open-text"></i> Contáctanos</h1>
+        <form>
+          <label for="correo"><i class="fas fa-envelope"></i> Correo:</label>
+          <input type="email" id="correo" name="correo" required />
+
+          <label for="celular"><i class="fas fa-phone"></i> Celular:</label>
+          <input type="tel" id="celular" name="celular" />
+
+          <label for="mensaje"
+            ><i class="fas fa-comment-dots"></i> Mensaje:</label
+          >
+          <textarea
+            id="mensaje"
+            name="mensaje"
+            rows="6"
+            cols="40"
+            required
+          ></textarea>
+
+          <button type="submit">
+            <i class="fas fa-paper-plane"></i> Enviar
+          </button>
+        </form>
+      </div>
+
+      <div class="map-container">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d543.5491509148396!2d-70.53622688407813!3d19.382429341150267!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8eb1d12fc305c2cb%3A0x6dc36e43c9081bce!2sFarmoqu%C3%ADmica%20Nacional%20(FARQUINA)!5e0!3m2!1ses!2sdo!4v1750206748075!5m2!1ses!2sdo"
+          width="600"
+          height="450"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        >
+          width="600" height="450" style="border: 0" allowfullscreen=""
+          loading="lazy" referrerpolicy="no-referrer-when-downgrade" ></iframe
+        >
+      </div>
+    </main>
+
+     <!--  footer -->
+
+    <footer class="caja-footer">
+      <div class="footer-container">
+        <!--  links y formulario -->
+        <div class="footer-main">
+          <!-- Columna 1 -->
+          <div class="footer-column">
+            <h4>Limpieza del Hogar</h4>
+            <ul>
+              <li><a href="#">Jabón de Cuaba Líquido</a></li>
+              <li><a href="#">Cloro</a></li>
+              <li><a href="#">Lavaplatos</a></li>
+              <li><a href="#">Suavizantes</a></li>
+              <li><a href="#">Desinfectantes</a></li>
+            </ul>
+          </div>
+          <!-- Columna 3 -->
+          <div class="footer-column">
+            <h4>Aseo Personal</h4>
+            <ul>
+              <li><a href="#">Alcohol Isopropílico</a></li>
+              <li><a href="#">Jabón Antibacterial de Manos</a></li>
+              <li><a href="#">Jabón de Cuaba Íntimo</a></li>
+              <li><a href="#">Shampoo Capilar</a></li>
+              <li><a href="#">Rinse-Acondicionador</a></li>
+            </ul>
+          </div>
+          <!-- Columna 4 -->
+          <div class="footer-column">
+            <h4>Cuidado de Vehículos</h4>
+            <ul>
+              <li><a href="#">Prptector de Vinil</a></li>
+              <li><a href="#">Shampoo para Autos</a></li>
+              <li><a href="#">Prptector de Vinil</a></li>
+              <li><a href="#">Shampoo para Autos</a></li>
+              <li><a href="#">Prptector de Vinil</a></li>
+            </ul>
+          </div>
+          <!-- Columna 2 -->
+          <div class="footer-column">
+            <h4>Comestibles</h4>
+            <ul>
+              <li><a href="#">Vinagre</a></li>
+              <li><a href="#">Vainilla</a></li>
+              <li><a href="#">Vinagre</a></li>
+              <li><a href="#">Vainilla</a></li>
+              <li><a href="#">Vinagre</a></li>
+            </ul>
+          </div>
+          <!-- Columna de suscripción -->
+          <div class="footer-subscribe">
+            <h4>Suscríbete a nuestro boletín</h4>
+            <p>Resumen mensual de lo nuevo y emocionante de nuestra parte.</p>
+            <form>
+              <input type="email" placeholder="Email address" required />
+              <button type="submit">Subscribe</button>
+            </form>
+          </div>
+        </div>
+
+        <!-- Sección inferior del footer con copyright e íconos -->
+        <div class="footer-bottom">
+          <p class="copyright-text">
+            © 2025 Company, Inc. All rights reserved.
+          </p>
+          <div class="social-iconos">
+            <a href="#" target="_blank"><i class="fab fa-facebook"></i></a>
+            <a href="#" target="_blank"><i class="fab fa-x-twitter"></i></a>
+            <a href="#" target="_blank"><i class="fab fa-linkedin"></i></a>
+            <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="#" target="_blank"><i class="fab fa-youtube"></i></a>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

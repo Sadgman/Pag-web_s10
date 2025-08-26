@@ -778,56 +778,6 @@ ul {
 .footer-column ul a:hover {
   color: #ffffff;
 }
-
-/* =========================================
-   SECCIÓN: FORMULARIO DE SUSCRIPCIÓN
-========================================= */
-
-.footer-subscribe p {
-  margin-top: 0;
-  margin-bottom: 1rem;
-  line-height: 1.5;
-}
-
-.footer-subscribe form {
-  display: flex;
-  gap: 0.5rem;
-}
-
-.footer-subscribe input[type="email"] {
-  flex-grow: 1;
-  padding: 0.75rem;
-  border: 1px solid #495057;
-  border-radius: 6px;
-  background-color: #343a40;
-  color: #f8f9fa;
-  font-size: 1rem;
-}
-
-.footer-subscribe input[type="email"]::placeholder {
-  color: #afb2b4;
-}
-
-.footer-subscribe button {
-  background-color: #0d6efd;
-  color: #ffffff;
-  border: none;
-  padding: 0.75rem 1.25rem;
-  border-radius: 6px;
-  font-size: 1rem;
-  font-weight: 500;
-  cursor: pointer;
-  transition: background-color 0.3s ease;
-}
-
-/* =========================================
-   SECCIÓN: HOVER DEL BOTÓN DE SUSCRIBIRSE
-========================================= */
-
-.footer-subscribe button:hover {
-  background-color: #143f80;
-}
-
 /* ===========================
    SECCIÓN: INFERIOR ICONOS
 =========================== */
@@ -899,7 +849,7 @@ ul {
   width: max-content;
   height: 660px;
   overflow: hidden;
-  animation: slideHero 20s linear infinite;
+  animation: slideHero 43s linear infinite;
 }
 @keyframes slideHero {
   0% {

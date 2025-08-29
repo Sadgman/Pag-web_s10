@@ -871,6 +871,25 @@ ul {
   height: 660px;
   object-fit: cover;
 }
+/*Whatsapp*/
+.float{
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:40px;
+	right:40px;
+	background-color:#25d366;
+	color:#FFF;
+	border-radius:30px;
+	text-align:center;
+  font-size:30px;
+	box-shadow: 2px 2px 3px #999;
+  z-index:100;
+}
+
+.my-float{
+	margin-top:16px;
+}
 
 /* Oscurecer fondo para legibilidad del texto */
 .hero::before {

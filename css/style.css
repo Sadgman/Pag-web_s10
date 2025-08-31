@@ -23,7 +23,7 @@ body {
 /* ===================
    SECCIÓN: NAVEGADOR
 ==================== */
-.nav-bar {
+header#nav-bar {
   position: sticky;
   top: 0;
   z-index: 1000;
@@ -102,7 +102,7 @@ body {
     text-align: center;
   }
 
-  .nav-bar {
+  header#nav-bar {
     flex-direction: column;
     align-items: flex-start;
   }

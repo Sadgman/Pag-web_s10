@@ -1,8 +1,7 @@
 document.addEventListener('DOMContentLoaded', function() {
   document.querySelector('#nav-bar').innerHTML = `
-    <div class="logo">
-      <a href="index.html"><img name="logo-farquina.png" alt="logo Farmoquímica" width="300"/></a>
-    </div>
+    <a href="index.html" id='logo'><img name="logo-farquina.png" alt="logo Farmoquímica" width="300"/></a>
+
     <ul class="nav-links">
       <li><a href="../index.html">Hogar</a></li>
       <li><a href="sobre.html">Sobre nosotros</a></li>

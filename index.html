@@ -11,13 +11,27 @@
     <!-- Iconos y estilos -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.min.css">
-    <script src="js/header.js"></script>
     <link rel="stylesheet" href="https://sadgman.github.io/Pag-web_s10/css/style.css" /> 
   </head>
   <body>
     <!-- Encabezado -->
-    <header id="nav-bar"></header>
-
+    <header id="nav-bar">
+      <a href="index.html" id="logo"><img name="logo-farquina.png" alt="logo Farmoquímica" width="300"/></a>
+      <ul class="nav-links">
+        <li><a href="index.html">Hogar</a></li>
+        <li><a href="resource/sobre.html">Sobre nosotros</a></li>
+        <li class="dropdown">
+          <a href="resource/productos.html">Productos ▾</a>
+          <ul class="dropdown-menu">
+            <li><a href="resource/Limpieza.html">Limpieza del Hogar</a></li>
+            <li><a href="resource/aseo.html">Aseo Personal</a></li>
+            <li><a href="resource/vehiculo.html">Cuidado de Vehículos</a></li>
+            <li><a href="resource/comestibles.html">Comestibles</a></li>
+          </ul>
+        </li>
+        <li><a href="resource/contactos.html">Contactos</a></li>
+      </ul>
+    </header>
     <!-- Contenido principal -->
     <main>
       <!-- Sección hero con carrusel -->

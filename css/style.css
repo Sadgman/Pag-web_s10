@@ -179,7 +179,7 @@ header#nav-bar {
   }
 }
 
-.logo img {
+#logo img {
   max-width: 250px;
   height: auto;
 }

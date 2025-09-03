@@ -127,6 +127,7 @@ header#nav-bar {
 }
 
 .dropdown-menu {
+  display:none;
   position: absolute;
   top: 25px;
   left: 10px;

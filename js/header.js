@@ -9,15 +9,15 @@ document.addEventListener('DOMContentLoaded', function() {
   </button>
   <nav class="nav-lateral">
     <ul class="nav-links">
-      <li><a href="index.html">Hogar</a></li>
+      <li><a href="../index.html">Hogar</a></li>
       <li><a href="resource/sobre.html">Sobre nosotros</a></li>
       <li class="dropdown">
         <a href="#">Productos ▾</a>
         <ul class="dropdown-menu">
-          <li><a href="resource/Limpieza.html">Limpieza del Hogar</a></li>
-          <li><a href="resource/aseo.html">Aseo Personal</a></li>
-          <li><a href="resource/vehiculo.html">Cuidado de Vehículos</a></li>
-          <li><a href="resource/comestibles.html">Comestibles</a></li>
+          <li><a href="./Limpieza.html">Limpieza del Hogar</a></li>
+          <li><a href="./aseo.html">Aseo Personal</a></li>
+          <li><a href="./vehiculo.html">Cuidado de Vehículos</a></li>
+          <li><a href="./comestibles.html">Comestibles</a></li>
           <!-- resource/productos.html -->
         </ul>
       </li>

@@ -1,7 +1,7 @@
 document.addEventListener('DOMContentLoaded', function() {
   document.URL.replace()
   document.querySelector('#nav-bar').innerHTML = `
-  <a href="index.html" id="logo"><img name="logo-farquina.png" alt="logo Farmoquímica" width="300"/></a>
+  <a href="../index.html" id="logo"><img name="logo-farquina.png" alt="logo Farmoquímica" width="300"/></a>
 
   <button aria-label="Abrir menú" id="menu-btn">
     <span class="linea"></span>
@@ -19,7 +19,7 @@ document.addEventListener('DOMContentLoaded', function() {
           <li><a href="aseo.html">Aseo Personal</a></li>
           <li><a href="vehiculo.html">Cuidado de Vehículos</a></li>
           <li><a href="comestibles.html">Comestibles</a></li>
-          <!-- resource/productos.html -->
+          <li><a href="productos.html">Todos</a></li>
         </ul>
       </li>
       <li><a href="contactos.html">Contactos</a></li>

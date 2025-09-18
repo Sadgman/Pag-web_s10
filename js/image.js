@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', function() {
     document.querySelectorAll('img').forEach(img => {
-        img.src = 'https://alfican.github.io/Pag-web_s10/image/' + img.getAttribute('name')
+        img.src = 'https://farquina.com/image/' + img.getAttribute('name')
     })
 })
 document.addEventListener('DOMContentLoaded', function() {
